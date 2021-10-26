@@ -28,10 +28,11 @@ module.exports = {
         test: /\.html$/,
         loader: 'html-loader',
       },
-      {
-        exclude: /\.(png|jpg|jpeg|svg|css|less|html)$/,
-        loader: 'file-loader'
-      }
+      // {
+      //   // 这里使用了会报错或者白屏， 但是不使用的时候发现资源还是会被处理，例如.ttf文字资源，所以这块还是比较迷惑的
+      //   exclude: /\.(css|less|js|html)$/,
+      //   loader: 'file-loader'
+      // }
     ]
   },
   plugins:[

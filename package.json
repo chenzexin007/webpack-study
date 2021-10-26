@@ -14,12 +14,28 @@
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.2",
     "less": "^4.1.1",
-    "less-loader": "^10.0.1",
+    "less-loader": "^7.3.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "postcss-loader": "^6.2.0",
+    "postcss-preset-env": "^6.7.0",
     "style-loader": "^3.2.1",
     "url-loader": "^4.1.1",
     "webpack": "^5.59.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.1",
     "webpack-html-plugin": "^0.1.1"
-  }
+  },
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 safari version",
+      "last 1 firefox version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "dependencies": {}
 }
